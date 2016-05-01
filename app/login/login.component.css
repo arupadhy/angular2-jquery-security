@@ -1,0 +1,37 @@
+button {
+	float: right;
+    margin-top: 8px;
+    margin-right: 5px;
+    background-color: #4E9E3B;
+    padding: 2px;
+    width: 70px;
+    border: 2px solid #4E9E3B;
+    border-radius: 10px;
+    outline: none 	;
+}
+
+button:hover {
+	background-color: green;
+	border: 2px solid green;
+	transition-duration: .5s;
+	width: 75px;
+	cursor: pointer;
+}
+
+.auth-message {
+    color: #4E9E3B;
+}
+
+.login-container {
+    display: none;
+    background-color: grey;
+}
+
+.login-container button {
+    float: right;
+}
+
+.full-width {
+    width: 100%;
+    margin: 5px;
+}

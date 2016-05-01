@@ -1,0 +1,15 @@
+<button>Login</button>
+
+<div class= "login-container" id="login" title="Login to system">
+  <p class="validateTips auth-message">Mandatory Authentication</p>
+ 
+  <form>
+    <fieldset>
+      <label for="username">UserName</label>
+      <input [(ngModel)]="user.name" type="text" name="username" id="username" class="text ui-widget-content ui-corner-all full-width">
+      <label for="password">Password</label>
+      <input [(ngModel)]="user.password" type="password" name="password" id="password" class="text ui-widget-content ui-corner-all full-width">
+    </fieldset>
+    <button (click)="authenticate(user)">Login</button> 
+  </form>
+</div>
